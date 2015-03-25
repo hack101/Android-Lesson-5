@@ -34,7 +34,9 @@ First, let's push some to-do items to Parse:
     todoObject.saveInBackground();
 ```
 
-We just pushed our first item and created the collection (or "table") in a few lines of code! In Parse, you can create a new Collection by simply pushing a new object to it. In our case, we can create the `ToDoObject` collection by pushing a new to-do item from our Android app. Any fields that did not previously exist in the collection will be created on the fly! In our case, the only field is `todo`. But we can add an extra field (such as `author`) to one of our objects, without changing any other entries.
+The ParseObject above is the class defining any objects we put, read or manipulate from the Parse database. We just pushed our first item and created the collection (or "table") in a few lines of code! 
+
+In Parse, you can create a new Collection by simply pushing a new object to it. In our case, we can create the `ToDoObject` collection by pushing a new to-do item from our Android app. Any fields that did not previously exist in the collection will be created on the fly! In our case, the only field is `todo`. But we can add an extra field (such as `author`) to one of our objects, without changing any other entries.
 
 
 Now, let's see how we can fetch all those items from the Parse database online:
@@ -57,7 +59,6 @@ Now, let's see how we can fetch all those items from the Parse database online:
 Step 2: Code! 
 ---------------------------------------------
 
-
-Now it's your turn to try! Add the code that will update and remove a to-do item from the database when you click on it. 
+Now it's your turn to try! Add the code that will remove a to-do item from the database when you click on it. 
 
 Check out the documentation on queries for help: https://www.parse.com/docs/android_guide#queries
