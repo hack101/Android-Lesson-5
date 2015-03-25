@@ -56,7 +56,7 @@ Now, let's see how we can fetch all those items from the Parse database online:
         }
 ````
 
-Step 2: Code! 
+Step 3: Code! 
 ---------------------------------------------
 
 Now it's your turn to try! Add the code that will remove a to-do item from the database when you click on it. 
