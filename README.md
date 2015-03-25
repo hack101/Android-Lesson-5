@@ -41,7 +41,7 @@ In Parse, you can create a new Collection by simply pushing a new object to it. 
 
 Now, let's see how we can fetch all those items from the Parse database online:
 
-````
+````java
         ArrayList<String> todoListItems = new ArrayList<String>();
         ParseQuery<ParseObject> query = ParseQuery.getQuery("TodoObject");
         ArrayList<ParseObject> todoList = new ArrayList<ParseObject>();
