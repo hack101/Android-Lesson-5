@@ -57,4 +57,7 @@ Now, let's see how we can fetch all those items from the Parse database online:
 Step 2: Code! 
 ---------------------------------------------
 
-Now it's your turn to try! Add the code that will remove a to-do item from the database when you click on it.
+
+Now it's your turn to try! Add the code that will update and remove a to-do item from the database when you click on it. 
+
+Check out the documentation on queries for help: https://www.parse.com/docs/android_guide#queries
